@@ -86,9 +86,9 @@
 						<string>pch/pch.hpp:pragma</string>
 						<string>pch/pch.hpp:content</string>
 						<string>pch/pch.cpp:include</string>
-						<string>main.cpp:comments</string>
-						<string>main.cpp:include</string>
-						<string>main.cpp:main:content</string>
+						<string>___PROJECTNAME___.cpp:comments</string>
+						<string>___PROJECTNAME___.cpp:include</string>
+						<string>___PROJECTNAME___.cpp:main:content</string>
 						<string>inc/appname.hpp:comments</string>
 						<string>inc/appname.hpp:pragma</string>
 						<string>inc/appname.hpp:include</string>
@@ -135,11 +135,11 @@ std::string App::AppName::Get()
 	return appname_;
 }
 						</string>
-						<key>main.cpp:include</key>
+						<key>___PROJECTNAME___.cpp:include</key>
 						<string>#include &quot;pch/pch.hpp&quot;
 #include &quot;inc/appname.hpp&quot;
 </string>
-						<key>main.cpp:main:content</key>
+						<key>___PROJECTNAME___.cpp:main:content</key>
 						<string>// insert code here...
 std::println(&quot;Hello, World!&quot;);
 
